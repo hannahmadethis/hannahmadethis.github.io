@@ -18,13 +18,13 @@
     $( "div, p" ).disableSelection();
   } );
     
-    $( ".selector" ).draggable({
+    $( "*" ).draggable({
   stack: ".products"
       // Getter
-var stack = $( "#draggable3" ).draggable( "option", "stack" );
+var stack = $( "*" ).draggable( "option", "stack" );
  
       // Setter
-$( "#draggable3" ).draggable( "option", "stack", ".products" );
+$( "*" ).draggable( "option", "stack", ".products" );
 });
   </script>
 </head>
