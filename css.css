@@ -1,7 +1,7 @@
   #draggable, #draggable2 { 
 	  width: 600px; 
 	  height: 500px; 
-	  padding: 0px; 
+	  padding: 10px; 
 	  float: left; 
 	  margin: 0 10px 10px 0; 
 	  z-index:1; 
@@ -9,7 +9,7 @@
 #draggable3 { 
 	  width: 600px; 
 	  height: 500px; 
-	  padding: 0px; 
+	  padding: 10px; 
 	  float: left; 
 	  margin: 20px 10px 10px 20px; 
 	  z-index: 3; 
@@ -17,7 +17,7 @@
 #draggable4 { 
 	  width: 600px; 
 	  height: 500px; 
-	  padding: 0px; 
+	  padding: 10px; 
 	  float: left; 
 	  margin: 40px 10px 10px 40px; 
 	  z-index: 4; 
@@ -25,16 +25,18 @@
 #draggable5 { 
 	  width: 600px; 
 	  height: 500px; 
-	  padding: 0px; 
+	  padding: 10px; 
 	  float: left; 
 	  margin: 60px 10px 10px 60px; 
 	  z-index: 5; 
 	  position: absolute; }
   #draggable p, #draggable3 p, #draggable4 p, #draggable5 p,  { 
 	  cursor: move !important; 
-	  font-size: 16pt !important; }
+	  font-size: 16pt !important;
+	  text-align: center;
+	  background-color: #E3735E;}
 .ui-widget-header {
-	cursor: move; }
+	  cursor: move; }
 
 A:link { 
   text-decoration: none; 
