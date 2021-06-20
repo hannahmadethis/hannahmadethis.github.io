@@ -73,7 +73,7 @@
 	  float: left; 
 	  margin: 10px 10px 10px 10px; 
 	  z-index: 5; 
-	  position: absolute; 
+	  position: relative; 
 	  overflow-x: hidden;
 	  overflow-y: auto; }
 
