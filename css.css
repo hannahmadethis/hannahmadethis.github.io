@@ -97,6 +97,21 @@ div.box2 {
   overflow-x: hidden;
 }
 
+div.box3 {
+  background-color: #fff;
+  float:left;
+  padding: 15px;
+  margin: 15px;
+  border: 3px solid #000;
+  width: 50%;
+  font-family: montserrat, open sans, helvetica; 
+  color: #000; 
+  font-size: 13px; 
+  text-decoration: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 section {
   width: 80% }
 
