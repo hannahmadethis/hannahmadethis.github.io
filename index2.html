@@ -17,6 +17,15 @@
     $( "#draggable2" ).draggable({ cancel: "p.ui-widget-header" });
     $( "div, p" ).disableSelection();
   } );
+    
+    $( ".selector" ).draggable({
+  stack: ".products"
+      // Getter
+var stack = $( ".selector" ).draggable( "option", "stack" );
+ 
+      // Setter
+$( ".selector" ).draggable( "option", "stack", ".products" );
+});
   </script>
 </head>
   
