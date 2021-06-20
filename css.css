@@ -79,6 +79,7 @@ div.box1 {
 /* content div */
 div.box2 {
   background-color: #fff;
+  position: relative;
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
