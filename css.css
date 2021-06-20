@@ -64,6 +64,7 @@ input, textarea {
 /* photos div */
 div.box1 {
   background-color: #fff;
+  display: inline-block;
   margin: auto;
   margin-top:50px;
   margin-bottom: 15px;
