@@ -84,6 +84,7 @@ input, textarea {
     overflow: hidden;
     white-space: nowrap;
     align: top;
+    width: 80%;
 }
 
 /* content div */
@@ -93,7 +94,7 @@ div.left {
   padding: 15px;
   margin: 15px;
   border: 3px solid #000;
-  width: 50%;
+  width: 40%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
