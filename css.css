@@ -78,14 +78,13 @@ div.box1 {
 }
 
 aside { 
-    position:  static;
+    position:  absolute;
     left: 0;
-    top: 0;
+    top: 0; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
     width: 200px; 
-    background: none; 
-    border: 0px  solid; 
-    border-radius: 2px; padding: 10px;
-    cursor: move;
+    background: rgba(255,255,255,0.66); 
+    border: 2px  solid rgba(0,0,0,0.5); 
+    border-radius: 4px; padding: 8px;
 }
 
 
