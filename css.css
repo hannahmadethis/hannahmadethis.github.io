@@ -65,7 +65,8 @@ input, textarea {
 div.box1 {
   background-color: #fff;
   margin: auto;
-  padding-top:50px;
+  margin-top:50px;
+  margin-bottom: 15px;
   border: 3px solid #000;
   width: 80%;
   font-family: montserrat, open sans, helvetica; 
@@ -79,6 +80,7 @@ div.box1 {
 div.box2 {
   background-color: #fff;
   padding: 15px;
+  margin: 15px;
   border: 3px solid #000;
   width: 33%;
   float: left;
