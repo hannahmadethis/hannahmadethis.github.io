@@ -26,7 +26,7 @@
 	  float: left; 
 	  margin: 0 10px 10px 0; 
 	  z-index: 5; }
-  #draggable p { 
+  #draggable p, #draggable3 p, #draggable4 p, #draggable5 p,  { 
 	  cursor: move !important; 
 	  font-size: 16px !important; }
 
