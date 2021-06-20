@@ -16,7 +16,7 @@
 	  padding-right: 10px;
 	  padding-top: 0px; 
 	  float: left; 
-	  margin: 50px 10px 10px 40px; 
+	  margin: 50px 10px 10px 60px; 
 	  z-index: 3; 
 	  position: absolute; 
 	  overflow: auto; }
@@ -27,7 +27,7 @@
 	  padding-right: 10px;
 	  padding-top: 0px;
 	  float: left; 
-	  margin: 100px 10px 10px 80px; 
+	  margin: 100px 10px 10px 120px; 
 	  z-index: 4; 
 	  position: absolute; 
 	  overflow: hidden; }
@@ -38,7 +38,7 @@
 	  padding-right: 10px;
 	  padding-top: 0px; 
 	  float: left; 
-	  margin: 150px 10px 10px 120px; 
+	  margin: 150px 10px 10px 180px; 
 	  z-index: 5; 
 	  position: absolute; 
 	  overflow-x: hidden;
@@ -50,7 +50,7 @@
 	  padding-right: 10px;
 	  padding-top: 0px; 
 	  float: left; 
-	  margin: 200px 10px 10px 160px; 
+	  margin: 200px 10px 10px 240px; 
 	  z-index: 5; 
 	  position: absolute; 
 	  overflow-x: hidden;
