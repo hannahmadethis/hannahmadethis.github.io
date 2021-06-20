@@ -58,8 +58,8 @@ A:hover {
 
 .inside {
   background: #fff;
-  overflow: scroll;
-  border: none;
+  overflow: auto;
+  border: 0px;
 }
 
 h1 {
