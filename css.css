@@ -65,7 +65,6 @@ input, textarea {
 
 .row {
     float:left;
-    width: 100%;
     border: 1px solid yellow;
     overflow: visible;
     white-space: nowrap;
@@ -76,15 +75,11 @@ input, textarea {
 div.box1 {
   display: inline-block;
   background-color: #fff;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  margin-left: 40px;
-  margin-right: 40px;
   padding: 10px;
   border: 3px solid #000;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  height: 600px;
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+  height: 400px;
 }
 
 /* content div */
