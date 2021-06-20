@@ -12,27 +12,33 @@
 #draggable3 { 
 	  width: 600px; 
 	  height: 500px; 
-	  padding: 10px; 
+	  padding-left: 10px; 
+	  padding-right: 10px;
+	  padding-top: 0px; 
 	  float: left; 
-	  margin: 40px 10px 10px 20px; 
+	  margin: 60px 10px 10px 40px; 
 	  z-index: 3; 
 	  position: absolute; 
 	  overflow: auto; }
 #draggable4 { 
 	  width: 600px; 
 	  height: 500px; 
-	  padding: 10px; 
+	  padding-left: 10px; 
+	  padding-right: 10px;
+	  padding-top: 0px;
 	  float: left; 
-	  margin: 80px 10px 10px 40px; 
+	  margin: 120px 10px 10px 80px; 
 	  z-index: 4; 
 	  position: absolute; 
 	  overflow: hidden; }
 #draggable5 { 
 	  width: 600px; 
 	  height: 500px; 
-	  padding: 10px; 
+	  padding-left: 10px; 
+	  padding-right: 10px;
+	  padding-top: 0px; 
 	  float: left; 
-	  margin: 120px 10px 10px 60px; 
+	  margin: 180px 10px 10px 120px; 
 	  z-index: 5; 
 	  position: absolute; 
 	  overflow-x: hidden;
