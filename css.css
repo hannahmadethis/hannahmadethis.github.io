@@ -61,7 +61,7 @@ input, textarea {
 
 
 
-/* content div */
+/* photos div */
 div.box1 {
   background-color: #fff;
   margin: auto;
@@ -72,7 +72,22 @@ div.box1 {
   margin-top: 50px;
   font-family: montserrat, open sans, helvetica; 
   color: #000; 
-  font-size: 26px !important; 
+  font-size: 13px; 
+  text-decoration: none;
+}
+
+/* content div */
+div.box2 {
+  background-color: #fff;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 3px solid #000;
+  width: 33%;
+  float: left;
+  font-family: montserrat, open sans, helvetica; 
+  color: #000; 
+  font-size: 13px; 
   text-decoration: none;
 }
 
