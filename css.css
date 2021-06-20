@@ -6,7 +6,7 @@
 	  margin: 0 10px 10px 0; 
 	  z-index:1; 
 	  position: absolute; 
-	  overflow: hidden; }
+	  overflow: auto; }
 #draggable3 { 
 	  width: 600px; 
 	  height: 500px; 
@@ -15,7 +15,7 @@
 	  margin: 40px 10px 10px 20px; 
 	  z-index: 3; 
 	  position: absolute; 
-	  overflow: hidden; }
+	  overflow: auto; }
 #draggable4 { 
 	  width: 600px; 
 	  height: 500px; 
@@ -33,7 +33,7 @@
 	  margin: 120px 10px 10px 60px; 
 	  z-index: 5; 
 	  position: absolute; 
-	  overflow: hidden; }
+	  overflow: auto; }
 #draggable p,  #draggable3 p, #draggable4 p, #draggable5 p  { 
 	  cursor: move !important; 
 	  font-size: 16pt !important;
