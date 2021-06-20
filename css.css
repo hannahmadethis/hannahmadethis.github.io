@@ -60,7 +60,6 @@ input, textarea {
 }
 
 .wrap{
-	width:2000px;
 	background:#BA6E6E;
 }
 .row {
@@ -74,18 +73,16 @@ input, textarea {
 
 /* photos div */
 div.box1 {
+  display: inline-block;
   background-color: #fff;
   margin-top: 50px;
   margin-bottom: 15px;
   margin-left: 40px;
   margin-right: 40px;
   border: 3px solid #000;
-  font-family: montserrat, open sans, helvetica; 
-  color: #000; 
-  font-size: 13px; 
-  text-decoration: none;
   overflow-x: scroll;
   overflow-y: hidden;
+  height: 600px;
 }
 
 /* content div */
@@ -99,7 +96,6 @@ div.left {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 
 section {
   width: 80% }
