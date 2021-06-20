@@ -18,7 +18,15 @@
     $( "#draggable2" ).draggable({ cancel: "p.ui-widget-header" });
     $( "div, p" ).disableSelection();
   } );
-   
+   $(document).ready(function() {
+    $('#draggable,#draggable3,#draggable4,#draggable5').draggable({stack: "div"});
+
+$('.front-on-click').click(function(){
+    $('.front').removeClass('front');
+    $(this).addClass('front');
+});
+
+});
   </script>
 </head>
   
