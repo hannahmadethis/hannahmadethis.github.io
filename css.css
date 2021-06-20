@@ -69,6 +69,7 @@ input, textarea {
     border: 1px solid yellow;
     overflow: visible;
     white-space: nowrap;
+    align: top;
 }
 
 /* photos div */
