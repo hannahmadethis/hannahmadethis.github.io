@@ -91,6 +91,9 @@ div.box2 {
   overflow-y: scroll;
 }
 
+section {
+  width: 80% }
+
 /*end float*/
 section::after {
   content: "";
