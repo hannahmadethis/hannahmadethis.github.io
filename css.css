@@ -75,7 +75,7 @@
 	  z-index: 5; 
 	  position: relative; 
 	  overflow-x: hidden;
-	  overflow-y: auto; }
+	  overflow-y: visible; }
 
 A:link { 
   text-decoration: none; 
