@@ -4,28 +4,32 @@
 	  padding: 10px; 
 	  float: left; 
 	  margin: 0 10px 10px 0; 
-	  z-index:1; }
+	  z-index:1; 
+	  position: absolute; }
 #draggable3 { 
 	  width: 600px; 
 	  height: 500px; 
 	  padding: 10px; 
 	  float: left; 
-	  margin: 0 10px 10px 0; 
-	  z-index: 3; }
+	  margin: 0 10px 10px 10px; 
+	  z-index: 3; 
+	  position: absolute; }
 #draggable4 { 
 	  width: 600px; 
 	  height: 500px; 
 	  padding: 10px; 
 	  float: left; 
-	  margin: 0 10px 10px 0; 
-	  z-index: 4; }
+	  margin: 0 10px 10px 20px; 
+	  z-index: 4; 
+	  position: absolute; }
 #draggable5 { 
 	  width: 600px; 
 	  height: 500px; 
 	  padding: 10px; 
 	  float: left; 
-	  margin: 0 10px 10px 0; 
-	  z-index: 5; }
+	  margin: 0 10px 10px 30px; 
+	  z-index: 5; 
+	  position: absolute; }
   #draggable p, #draggable3 p, #draggable4 p, #draggable5 p,  { 
 	  cursor: move !important; 
 	  font-size: 16px !important; }
