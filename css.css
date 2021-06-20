@@ -5,7 +5,8 @@
 	  float: left; 
 	  margin: 0 10px 10px 0; 
 	  z-index:1; 
-	  position: absolute; }
+	  position: absolute; 
+	  overflow: hidden; }
 #draggable3 { 
 	  width: 600px; 
 	  height: 500px; 
@@ -13,7 +14,8 @@
 	  float: left; 
 	  margin: 20px 10px 10px 20px; 
 	  z-index: 3; 
-	  position: absolute; }
+	  position: absolute; 
+	  overflow: hidden; }
 #draggable4 { 
 	  width: 600px; 
 	  height: 500px; 
@@ -21,7 +23,8 @@
 	  float: left; 
 	  margin: 40px 10px 10px 40px; 
 	  z-index: 4; 
-	  position: absolute; }
+	  position: absolute; 
+	  overflow: hidden; }
 #draggable5 { 
 	  width: 600px; 
 	  height: 500px; 
@@ -29,7 +32,8 @@
 	  float: left; 
 	  margin: 60px 10px 10px 60px; 
 	  z-index: 5; 
-	  position: absolute; }
+	  position: absolute; 
+	  overflow: hidden; }
 #draggable p,  #draggable3 p, #draggable4 p, #draggable5 p  { 
 	  cursor: move !important; 
 	  font-size: 16pt !important;
