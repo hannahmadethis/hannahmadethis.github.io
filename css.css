@@ -55,6 +55,13 @@ A:hover {
   font-weight: bold;
   color:#000000; }
 
+
+.inside {
+  background: #fff;
+  overflow: scroll;
+  border: none;
+}
+
 h1 {
   font-family: garamond, times new roman, times; 
   color: #eee; 
