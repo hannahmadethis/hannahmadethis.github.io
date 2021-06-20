@@ -3,13 +3,10 @@
 	  height: 500px; 
 	  padding: 10px; 
 	  float: left; 
-	  margin: 0 10px 10px 0; 
-	  border: 3px solid #000; }
+	  margin: 0 10px 10px 0; }
   #draggable p { 
-	  cursor: move; 
-  	  font-family: montserrat, open sans, helvetica;
-  	  color: #000000; 
-	  font-size: 16px; }
+	  cursor: move !important; 
+	  font-size: 16px !important; }
 
 A:link { 
   text-decoration: none; 
