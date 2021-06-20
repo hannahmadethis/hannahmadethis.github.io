@@ -33,8 +33,8 @@
 #draggable p,  #draggable3 p, #draggable4 p, #draggable5 p  { 
 	  cursor: move !important; 
 	  font-size: 16pt !important;
-	  text-align: center;
-	  background-color: #E3735E; }
+	  text-align: left;
+	  background-color: #ddd; }
 .ui-widget-header {
 	  cursor: move; }
 
@@ -57,7 +57,7 @@ A:hover {
 
 h1 {
   font-family: garamond, times new roman, times; 
-  color: #ddd; 
+  color: #eee; 
   font-size: 40px; 
   text-align: center}
 
