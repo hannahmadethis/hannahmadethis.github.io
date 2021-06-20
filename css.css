@@ -1,4 +1,12 @@
-
+  #draggable, #draggable2 { 
+	  width: 800px; 
+	  height: 500px; 
+	  padding: 10px; 
+	  float: left; 
+	  margin: 0 10px 10px 0; 
+	  border: 3px solid #000; }
+  #draggable p { 
+	  cursor: move; }
 
 A:link { 
   text-decoration: none; 
