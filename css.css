@@ -20,7 +20,8 @@ A:hover {
 h1 {
   font-family: garamond, times new roman, times; 
   color: #000; 
-  font-size: 14px; }
+  font-size: 40px; 
+  text-align:center}
 
   
 h2 {
@@ -58,16 +59,16 @@ input, textarea {
   border-width: 1px;
 }
 
+
+
 /* content div */
-div.box {
-  background-color: rgba(255,255,255,0.7); /* Black w/ opacity */
+div.box1 {
+  background-color: #fff;
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-  border: 0px solid #FFF;
-  width: 400px fixed;
-  top: 100px;
-  left: 50px;
+  border: 3px solid #000;
+  width: 80% fixed;
   position: fixed;
   font-family: helvetica, arial, geneva; 
   color: #000; 
@@ -77,11 +78,25 @@ div.box {
 }
 
 aside { 
-    position:  absolute;
+    position:  static;
     left: 0;
     top: 0;
     width: 200px; 
-    background: rgba(255,255,255,0.66); 
-    border: 2px  solid rgba(0,0,0,0.5); 
-    border-radius: 4px; padding: 8px;
+    background: none; 
+    border: 0px  solid; 
+    border-radius: 2px; padding: 10px;
+    cursor: move;
+}
+
+
+.container {
+  position: relative;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+  background-color: #FFF;
 }
