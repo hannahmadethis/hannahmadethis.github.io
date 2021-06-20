@@ -205,3 +205,15 @@ aside {
   font-size: 18px;
   background-color: #FFF;
 }
+
+	
+	
+.refresh {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	font-family: webdings;
+	font-size:40pt;
+	background-color: #fff;
+	}
+	
