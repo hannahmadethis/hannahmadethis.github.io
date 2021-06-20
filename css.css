@@ -71,8 +71,8 @@ input, textarea {
     align: top;
 }
 
-/* photos div */
-div.box1 {
+/* photos */
+header {
   display: block;
   background-color: #fff;
   padding: 10px;
