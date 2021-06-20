@@ -1,0 +1,77 @@
+
+
+A:link { 
+  text-decoration: none; 
+  font-weight: bold;
+  color:#000000; }
+A:visited { 
+  text-decoration: none; 
+  font-weight: bold;
+  color:#000000; }
+A:active { 
+  text-decoration: none;
+  font-weight: bold;
+  color:#000000; }
+A:hover { 
+  text-decoration: none; 
+  font-weight: bold;
+  color:#000000; }
+
+h1 {
+  font-family: garamond, times new roman, times; 
+  color: #000; 
+  font-size: 14px; }
+
+  
+h2 {
+  font-family: garamond, times new roman, times; 
+  color: #000; 
+  font-size: 12px; }
+
+p {
+  font-family: helvetica, arial, geneva; 
+  color: #000; 
+  font-size: 10px; }
+
+body
+{ background: #FFF;
+  font-family: helvetica, arial, geneva; 
+  color: #000; 
+  font-size: 12px; }
+
+
+table, tr, td {
+  background: #FFF;
+  font-family: helvetica, arial, geneva;
+  color: #000;
+  border-style: solid; 
+  border-color: #000000;
+  border-width: 1px; 
+  padding: 1cm; }
+
+input, textarea { 
+  background: #FFF;
+  font-family: helvetica, arial, geneva;
+  color: #000000;
+  border-style: solid; 
+  border-color: #000000;
+  border-width: 1px;
+}
+
+/* content div */
+div.box {
+  background-color: rgba(255,255,255,0.7); /* Black w/ opacity */
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0px solid #FFF;
+  width: 400px fixed;
+  top: 100px;
+  left: 50px;
+  position: fixed;
+  font-family: helvetica, arial, geneva; 
+  color: #000; 
+  font-size: 26px !important; 
+  text-decoration: none;
+  cursor: move;
+}
