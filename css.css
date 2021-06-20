@@ -72,7 +72,6 @@ div.box1 {
   margin-left: 40px;
   margin-right: 40px;
   border: 3px solid #000;
-  width: 80%;
   font-family: montserrat, open sans, helvetica; 
   color: #000; 
   font-size: 13px; 
@@ -82,34 +81,24 @@ div.box1 {
 }
 
 /* content div */
-div.box2 {
+div.left {
   background-color: #fff;
   float:left;
   padding: 15px;
   margin: 15px;
   border: 3px solid #000;
   width: 50%;
-  font-family: montserrat, open sans, helvetica; 
-  color: #000; 
-  font-size: 13px; 
-  text-decoration: none;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
-div.box3 {
+div.right {
   background-color: #fff;
   float:left;
   padding: 15px;
   margin: 15px;
   border: 3px solid #000;
   width: 50%;
-  font-family: montserrat, open sans, helvetica; 
-  color: #000; 
-  font-size: 13px; 
-  text-decoration: none;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 section {
@@ -120,6 +109,13 @@ section::after {
   content: "";
   display: table;
   clear: both;
+}
+.clear{
+	clear:both;    
+}
+.footer{
+	height:80px;
+	background:#ccc;
 }
 
 /*stack if small screen*/
