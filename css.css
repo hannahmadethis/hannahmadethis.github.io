@@ -243,16 +243,3 @@ aside {
 	background-color: #fff;
 	z-index:3000
 	}
-
-a:link.refresh {
-	font-size:40pt !important;
-} 
-a:visited.refresh {
-	font-size:40pt !important;
-}
-a:hover.refresh {
-	font-size:40pt !important;
-}
-a:active.refresh {
-	font-size:40pt !important;
-}
