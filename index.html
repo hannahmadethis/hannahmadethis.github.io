@@ -113,6 +113,7 @@ $('.ui-widget-content').click(function(){
     <img src="/images/sv-transparent.png">
     <img src="/images/svh-happy-transparent.png">
     <img src="/images/englis19s-lg.png">
+    <br> <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/9814053209231395363603357481230842487019382184500011971043651914919999176705" target="__new"><img src="https://lh3.googleusercontent.com/YparZliLoe16HltPhHgBuUtaYz44shvQYDs3ZnDdxCLu2x8QcvXYjoycWTUyt3c43Iuw3mwtZhR6S_oA8TMLd9jtVrFZ9Kr3EH1DbA=w600"></a></br>
     </br>
 </div>
 
@@ -136,12 +137,26 @@ $('.ui-widget-content').click(function(){
 
 
   <div id="draggable" class="ui-widget-content">
-  <p class="ui-widget-header">nfts</p>
-  <br> <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/9814053209231395363603357481230842487019382184500011971043651914919999176705" target="__new"><img src="https://lh3.googleusercontent.com/YparZliLoe16HltPhHgBuUtaYz44shvQYDs3ZnDdxCLu2x8QcvXYjoycWTUyt3c43Iuw3mwtZhR6S_oA8TMLd9jtVrFZ9Kr3EH1DbA=w600"></a></br>
-</div>
+  <p class="ui-widget-header">twitch</p>
+    <div id="twitch-embed"></div>
+
+    
+  </div>
 
 
 
+<!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "monstercat",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
 </body>
 </html>
