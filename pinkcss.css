@@ -94,6 +94,10 @@ img {
 
 .imgwrap{
   padding: 4px 0px 0px 2px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 0px solid #fff;
 }
 
 A:link { 
