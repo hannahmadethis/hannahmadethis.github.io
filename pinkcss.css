@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Inconsolata&family=Lora:wght@500&family=Varela+Round&display=swap');
+
+/*bitter, inconsolata, lora, varela round */
+
+body
+{ 
+  background-repeat:no-repeat;
+  font-family: 'inconsolata', sans-serif;
+  height: 100% !important;
+  color: #444; 
+  font-size: 14px; 
+}
+
+
+h1 {
+  font-family: 'lora', sans-serif;
+  font-weight: bolder;
+  color: #FF9376; 
+  font-size: 36px; 
+  display:inline;
+}
+  
+h2 {
+  font-family: 'lora', sans-serif;
+  color: #444; 
+  font-weight: bolder;
+  font-size: 22px; 
+  display:inline;
+}
+
+p {
+  font-family: 'inconsolata', sans-serif;
+  color: #444; 
+  font-size: 14px; 
+}
+
+.nav {
+  position:relative;
+  top: 0px;
+  left: 0px;
+  border: 0px;
+  z-index: 5;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background: none;
+  border: 0px #bababa;
+  padding: 2px;
+  margin: 0px;
+  width: 80%;
+  gap: 3em;
+  z-index:3;
+  position: relative;
+  margin-top: 80px;
+}
+
+
+.container1 {
+  flex: 1 0 33%; 
+  background: #f7F7F7;
+  border: 1px outset #bababa;
+  border-radius: 5px;
+  padding: 0px;
+  padding-right: 4px;
+  margin: 0px;
+  width: 500px;
+  gap: 3em;
+  margin-top: 0px;
+}
+.container1>* {
+  flex: 1 1 800px;
+}
+
+.container2 {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #bababa;
+  padding: 10px;
+  margin: 2px;
+
+}
+
+.container2 img {
+  max-width: 90%;
+  border-radius: 4px;
+}
+
+img {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+
+
+A:link { 
+  text-decoration: none; 
+  font-weight: bold;
+  color:#444444; 
+  white-space: nowrap; }
+A:visited { 
+  text-decoration: none; 
+  font-weight: bold;
+  color: #444; 
+  white-space: nowrap; }
+A:active { 
+  text-decoration: none;
+  font-weight: bold;
+  color:#444; 
+  white-space: nowrap; }
+A:hover { 
+  text-decoration: none; 
+  font-weight: bold;
+  color: #ccc; 
+  white-space: nowrap; }
+
+  
+  A.footer:link { 
+    text-decoration: none; 
+    font-weight: bold;
+    color:#444; 
+    white-space: nowrap; }
+  A.footer:visited { 
+    text-decoration: none; 
+    font-weight: bold;
+    color: #444; 
+    white-space: nowrap; }
+  A.footer:active { 
+    text-decoration: none;
+    font-weight: bold;
+    color:#444; 
+    white-space: nowrap; }
+  A.footer:hover { 
+    text-decoration: underline; 
+    font-weight: bold;
+    color: #ccc; 
+    white-space: nowrap; }
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+ul, li {
+    text-align:left;
+}
+
+  .hide {
+    display: none;
+  }
+
+#circle {
+    height: 480px;
+    width: 480px;
+    border-radius: 50%;
+    background-color: #FFF; 
+    z-index: 2;
+    position: absolute; 
+    top: 60px;
+  left: 40px;
+  }
+  
+#triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0 300px 1080px;
+  border-color: transparent transparent transparent #ffffff;
+  line-height: 0px;
+  _border-color: #000000 #000000 #000000 #ffffff;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  z-index: 1;
+  position: absolute;
+  top:-100px;
+  left:-120px;}
+
+  #triangle2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 430px 1080px;
+    border-color: transparent transparent transparent #ffffff;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #ffffff;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+    z-index: 1;
+    position: absolute;
+    top:-100px;
+    left:-100px;}
+
+    #triangle3 {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0px 0 600px 1000px;
+      border-color: transparent transparent transparent #ffffff;
+      line-height: 0px;
+      _border-color: #000000 #000000 #000000 #ffffff;
+      _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+      z-index: 1;
+      position: absolute;
+      top:-80px;
+      left:-100px;}
+
+      #triangle4 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0px 0 400px 900px;
+        border-color: transparent transparent transparent #ffffff;
+        line-height: 0px;
+        _border-color: #000000 #000000 #000000 #ffffff;
+        _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+        z-index: 1;
+        position: absolute;
+        top:-120px;
+        left:-80px;}
+
+        #triangle5 {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0px 0 300px 1000px;
+          border-color: transparent transparent transparent #ffffff;
+          line-height: 0px;
+          _border-color: #000000 #000000 #000000 #ffffff;
+          _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+          z-index: 1;
+          position: absolute;
+          top:-100px;
+          left:-100px;}
