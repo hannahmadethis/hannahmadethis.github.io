@@ -73,9 +73,7 @@ p {
   gap: 3em;
   margin-top: 0px;
 }
-.container1>* {
-  flex: 1 1 800px;
-}
+
 
 .container2 {
   width: 100%;
