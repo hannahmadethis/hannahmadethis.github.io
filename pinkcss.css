@@ -73,7 +73,9 @@ p {
   gap: 3em;
   margin-top: 0px;
 }
-
+.container1>* {
+  flex: 1 1 800px;
+}
 
 .container2 {
   width: 100%;
@@ -82,7 +84,6 @@ p {
   border: 1px solid #bababa;
   padding: 10px;
   margin: 2px;
-
 }
 
 img {
@@ -96,6 +97,24 @@ img {
   box-sizing: border-box;
   background: #fff;
   border: 0px solid #fff;
+}
+
+input, textarea {
+  background: #f7F7F7;
+  border: 0px solid #fff; 
+  font-family: 'inconsolata', sans-serif;
+  color: #444; 
+  font-size: 14px; 
+  font-weight: bold;
+}
+
+button {
+  background: #f7F7F7;
+  border: 1px outset #bababa;
+  font-family: 'inconsolata', sans-serif;
+  color: #444; 
+  font-size: 14px; 
+  font-weight: bold;
 }
 
 A:link { 
