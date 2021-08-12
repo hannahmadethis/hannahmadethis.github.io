@@ -208,8 +208,8 @@ ul, li {
   _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
   z-index: 1;
   position: absolute;
-  top:-100px;
-  left:-100px;}
+  top:-90px;
+  left:-90px;}
 
   #triangle2 {
     width: 0;
