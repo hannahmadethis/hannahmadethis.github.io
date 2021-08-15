@@ -95,8 +95,6 @@ a.container2 {
 .container2 {
   width: 100%;
   box-sizing: border-box;
-  word-break: break-word; 
-  overflow:wrap;
   min-width: 0;
   background: #fff;
   border: 1px solid #bababa;
@@ -253,7 +251,7 @@ ul, li {
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 0px 0 400px 900px;
+        border-width: 0px 0 500px 950px;
         border-color: transparent transparent transparent #ffffff;
         line-height: 0px;
         _border-color: #000000 #000000 #000000 #ffffff;
@@ -267,7 +265,7 @@ ul, li {
           width: 0;
           height: 0;
           border-style: solid;
-          border-width: 0px 0 300px 1000px;
+          border-width: 0px 0 400px 1100px;
           border-color: transparent transparent transparent #ffffff;
           line-height: 0px;
           _border-color: #000000 #000000 #000000 #ffffff;
