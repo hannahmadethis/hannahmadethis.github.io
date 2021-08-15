@@ -76,7 +76,7 @@ p {
   padding: 0px;
   padding-right: 4px;
   margin: 0px;
-  width: 410px;
+  min-width: 300px;
   gap: 3em;
   margin-top: 0px;
 }
@@ -105,7 +105,7 @@ img {
   border: 1px outset #bababa;
   border-radius: 5px;
   margin: 0px;
-  max-width: 500px;
+  max-width: 450px;
   gap: 3em;
 }
 
