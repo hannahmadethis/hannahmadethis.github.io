@@ -99,7 +99,7 @@ img {
 }
 
 .container1photos{
-  padding: 4px 4px 0px 2px;
+  padding: 4px 4px 0px 0px;
   flex: 1 0 33%; 
   background: #f7F7F7;
   border: 1px outset #bababa;
