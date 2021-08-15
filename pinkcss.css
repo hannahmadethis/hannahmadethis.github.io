@@ -97,12 +97,15 @@ img {
   border-radius: 4px;
 }
 
-.imgwrap{
-  padding: 4px 0px 0px 2px;
-  width: 100%;
-  box-sizing: border-box;
-  background: #fff;
-  border: 0px solid #fff;
+.container1photos{
+  padding: 4px 4px 0px 2px;
+  flex: 1 0 33%; 
+  background: #f7F7F7;
+  border: 1px outset #bababa;
+  border-radius: 5px;
+  margin: 0px;
+  max-width: 500px;
+  gap: 3em;
 }
 
 input, textarea {
