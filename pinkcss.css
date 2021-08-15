@@ -95,7 +95,6 @@ a.container2 {
 .container2 {
   width: 100%;
   box-sizing: border-box;
-  min-width: 0;
   background: #fff;
   border: 1px solid #bababa;
   padding: 10px;
@@ -104,6 +103,7 @@ a.container2 {
 
 img {
   border-radius: 4px;
+  padding: 4px 0px 0px 2px;
 }
 
 .imgwrap{
