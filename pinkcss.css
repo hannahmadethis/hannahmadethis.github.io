@@ -69,16 +69,16 @@ p {
 
 
 .container1 {
+  flex-direction: column;
+  position: relative;
   flex: 1 0 33%; 
   background: #f7F7F7;
   border: 1px outset #bababa;
   border-radius: 5px;
-  padding: 0px;
-  padding-right: 4px;
-  margin: 0px;
+  padding: 4px 2px 2px 2px;
+  margin: 0px 0px 1.5rem 0px;
   min-width: 300px;
   gap: 3em;
-  margin-top: 0px;
 }
 .container1>* {
   flex-basis: 100%;
@@ -90,26 +90,27 @@ p {
   background: #fff;
   border: 1px solid #bababa;
   padding: 10px 10px 10px 10px;
-  margin: 2px;
+  margin: 0px;
   overflow:hidden;
 }
 
 img {
   border-radius: 4px;
 }
-
 .container1photos img {
   border-radius: 4px;
   margin-left: 2px;
 }
 
-.container1photos{
-  padding: 4px 4px 0px 0px;
+.container1photos {
+  flex-direction: column;
+  position: relative;
+  padding: 4px 2px 2px 2px;
   flex: 1 0 33%; 
   background: #f7F7F7;
   border: 1px outset #bababa;
   border-radius: 5px;
-  margin: 0px;
+  margin: 0px 0px 1.5rem 0px;
   max-width: 450px;
   gap: 3em;
 }
