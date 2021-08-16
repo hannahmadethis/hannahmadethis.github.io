@@ -79,6 +79,7 @@ p {
   margin: 0px 0px 1.5rem 0px;
   min-width: 300px;
   gap: 3em;
+  overflow: hidden;
 }
 .container1>* {
   flex-basis: 100%;
@@ -90,8 +91,8 @@ p {
   background: #fff;
   border: 1px solid #bababa;
   padding: 10px 10px 10px 10px;
-  margin: 0px;
-  overflow:hidden;
+  margin: 2px 0px 0px 0px;
+  overflow: hidden;
 }
 
 img {
